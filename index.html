@@ -1,0 +1,19 @@
+<!doctype html><html lang="tr"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#07111f"><link rel="manifest" href="manifest.webmanifest"><link rel="apple-touch-icon" href="icon.svg">
+<title>ZihinDakika</title>
+<style>
+:root{--text:#eef8ff;--muted:#91a9bf;--line:#1b3b59}*{box-sizing:border-box}body{margin:0;background:linear-gradient(180deg,#07111f,#0a1728 55%,#07111f);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display",Arial,sans-serif;min-height:100vh}main{max-width:520px;margin:auto;padding:calc(18px + env(safe-area-inset-top)) 18px calc(28px + env(safe-area-inset-bottom))}.brand{text-align:center;margin:16px 0 20px}.brand h1{margin:0;font-size:31px}.brand p{margin:7px 0;color:var(--muted)}.status{background:rgba(13,28,48,.86);border:1px solid var(--line);border-radius:22px;padding:16px;margin-bottom:16px;backdrop-filter:blur(14px)}.status strong{display:block;font-size:17px;margin-bottom:6px}.small{font-size:13px;color:var(--muted)}.video{aspect-ratio:9/16;max-height:55vh;border-radius:24px;overflow:hidden;background:#02060b;border:1px solid var(--line);display:flex;align-items:center;justify-content:center}.video video{width:100%;height:100%;object-fit:cover}.empty{text-align:center;color:var(--muted);padding:25px}.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:16px}button{appearance:none;border:none;border-radius:18px;padding:17px 10px;font-size:16px;font-weight:700;color:white;border:1px solid #294c68;min-height:58px}button:active{transform:scale(.985)}.preview{background:#0d466a}.yes{background:#0d5a43}.no{background:#513039}.create{background:#463c78}footer{text-align:center;color:var(--muted);font-size:12px;margin-top:18px}.chip{display:inline-block;margin-top:8px;border:1px solid #1f4262;background:#0a2136;border-radius:999px;padding:5px 9px}
+</style></head><body><main>
+<div class="brand"><h1>🧠 ZihinDakika</h1><p>1 dakikada zihnine yeni bir fikir.</p></div>
+<section class="status"><strong id="title">Bugünkü içerik hazırlanıyor</strong><div id="msg" class="small">17:30 ve 20:30 • onay 15 dakika önce</div><span class="chip small">☁️ iPhone Cloud</span></section>
+<section class="video"><div id="empty" class="empty">Hazır video burada görünecek.</div><video id="video" controls playsinline hidden></video></section>
+<div class="grid"><button class="preview" onclick="preview()">▶ Video Önizle</button><button class="yes" onclick="command('APPROVE')">✅ Paylaş</button><button class="no" onclick="command('REJECT')">❌ Paylaşma</button><button class="create" onclick="command('CREATE_EXTRA')">✨ İçerik Oluştur</button></div>
+<footer>Bilgisayar gerekmez • Safari → Ana Ekrana Ekle</footer></main>
+<script src="config.js"></script><script>
+const v=document.getElementById('video'),e=document.getElementById('empty'),m=document.getElementById('msg'),t=document.getElementById('title');let latest={};
+async function loadLatest(){try{const r=await fetch('./data/latest.json?x='+Date.now(),{cache:'no-store'});latest=await r.json();t.textContent=latest.title||'ZihinDakika';m.textContent=latest.status||'Onay bekliyor.';if(latest.video){v.src=latest.video+'?v='+(latest.generated_at||Date.now());v.hidden=false;e.hidden=true;}}catch(_){m.textContent='Bulut üretimi ilk çalışmayı bekliyor.'}}
+function preview(){if(latest.video){v.play()}else{m.textContent='Video henüz hazırlanmadı.'}}
+function command(c){const repo=window.ZD_REPO;const title=encodeURIComponent('ZD_COMMAND: '+c);const body=encodeURIComponent('ZihinDakika mobil komutu: '+c);location.href=`https://github.com/${repo}/issues/new?title=${title}&body=${body}`;}
+loadLatest();if('serviceWorker' in navigator)navigator.serviceWorker.register('./sw.js');
+</script></body></html>
