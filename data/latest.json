@@ -1,9 +1,19 @@
 {
-  "title": "Karar Yorgunluğu Gününü Nasıl Tüketir?",
-  "status": "Video hazır • önizle ve karar ver",
-  "video": "./media/latest.mp4",
-  "decision": "pending",
+  "id": "3a88ba28d768",
+  "title": "Negatif Bir Yorum Neden Daha Ağır Gelir?",
+  "hook": "On iyi yorumun yanında tek bir olumsuz yorum varsa zihnin bazen ona daha fazla takılabilir.",
+  "narration": "On iyi yorumun yanında tek bir olumsuz yorum varsa zihnin bazen ona daha fazla takılabilir. İnsanlar olumsuz bilgiyi tehdit açısından daha önemli değerlendirmeye eğilim gösterebilir. Bu, her eleştiriyi görmezden gelmen gerektiği anlamına gelmez. Daha iyi yöntem, yorumu kanıt gibi incelemektir: somut mu, tekrarlanıyor mu, değiştirebileceğin bir davranış söylüyor mu? Cevap evetse kullan; yalnızca kaba veya belirsizse ağırlığını azalt. Bir yorumun güçlü hissettirmesi, onun mutlaka en doğru veri olduğu anlamına gelmez. Bunu denemek için bugün yalnızca tek bir küçük değişiklik seç ve günün sonunda işe yarayıp yaramadığını gözlemle. Sonucu değil, başlangıcı kolaylaştırmaya odaklan.",
+  "caption": "Negatif Bir Yorum Neden Daha Ağır Gelir? — Bugün deneyebileceğin küçük bir zihinsel araç. #zihindakika #psikoloji #kişiselgelişim",
+  "category": "Psikoloji",
   "slot": "extra",
-  "narration": "Sabah ne giyeceğinden hangi işe önce başlayacağına kadar onlarca küçük karar verirsin. Tek tek önemsiz görünseler de gün ilerledikçe seçim yapmak zorlaşabilir. Bu yüzden bazı kararları önceden vermek işe yarar. Örneğin çalışma saatini, ilk görevi veya mola düzenini bir gece önce belirleyebilirsin. Böylece önemli konular için daha fazla zihinsel alan bırakırsın. Amaç hayatı tamamen otomatikleştirmek değil; gereksiz seçimleri azaltmaktır. Enerjini küçük kararlara değil, gerçekten düşünmen gereken konulara sakla.",
-  "generated_at": "2026-08-30T18:46:24.505218+00:00"
+  "generated_at": "2026-08-30T19:32:43.176533+00:00",
+  "source": "fallback",
+  "model": "qwen2.5:3b",
+  "status": "Video hazır • önizle ve karar ver",
+  "video": "https://raw.githubusercontent.com/zihindakika/zihindakika-app/media/latest.mp4",
+  "decision": "pending",
+  "duration_seconds": 42.01,
+  "voice_engine": "Piper Fettah • kalite yedeği",
+  "render_version": "V3.0",
+  "updated_at": "2026-08-30T19:34:33.073644+00:00"
 }

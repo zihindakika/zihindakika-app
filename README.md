@@ -1,26 +1,10 @@
-# ZihinDakika iPhone Cloud FINAL v4
+# ZihinDakika V3
 
-Bilgisayar gerektirmeyen iPhone PWA + GitHub Actions otomasyonu.
+Telefon odaklı, sıfır maliyetli kısa video üretim ve onay sistemi.
 
-## Görünür arayüz
-- ▶ Video Önizle
-- ✅ Paylaş
-- ❌ Paylaşma
-- ✨ İçerik Oluştur
-
-## Üretim
-- Qwen2.5 1.5B Instruct: özgün Türkçe metin
-- Piper tr_TR fettah: Türkçe ses
-- FFmpeg + Pillow: 1080×1920 MP4
-- 16:55 / 19:55 Türkiye saatinde üretim başlatılır
-- 17:15 / 20:15 onay hedefi
-- 17:30 / 20:30 yayın hedefi
-
-## Buffer
-GitHub repository secret olarak `BUFFER_API_KEY` eklenirse Paylaş komutu Buffer'a bağlı Instagram, TikTok ve YouTube kanallarını bulur ve gönderiyi oluşturur.
-Sosyal medya şifresi veya doğrulama kodu source code'a yazılmaz.
-
-## iPhone URL
-GitHub Pages etkinleştirildikten sonra:
-https://zihindakika.github.io/zihindakika-app/
-Safari → Paylaş → Ana Ekrana Ekle
+- Arayüz: GitHub Pages PWA
+- İçerik: Qwen2.5 3B (yerel GitHub Actions runner üzerinde Ollama), kalite kontrol + güvenli fallback
+- Ses: FreyaTTS-small 48 kHz birincil, Piper Türkçe güvenli fallback
+- Video: 1080×1920 H.264/AAC, dinamik altyazı ve koyu/neon ZihinDakika görsel dili
+- Yayın: yalnızca açık `Paylaş` onayından sonra Buffer API
+- Video depolama: `media` dalında yalnız son video tutulur; ana dal ikili video geçmişiyle şişmez

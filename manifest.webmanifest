@@ -1,15 +1,24 @@
 {
   "name": "ZihinDakika",
   "short_name": "ZihinDakika",
-  "start_url": "./",
+  "description": "1 dakikada zihnine yeni bir fikir.",
+  "start_url": "./?source=pwa",
+  "scope": "./",
   "display": "standalone",
-  "background_color": "#07111f",
-  "theme_color": "#07111f",
+  "orientation": "portrait",
+  "background_color": "#07090d",
+  "theme_color": "#07090d",
   "icons": [
     {
-      "src": "icon.svg",
-      "sizes": "any",
-      "type": "image/svg+xml",
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
       "purpose": "any maskable"
     }
   ]

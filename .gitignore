@@ -1,0 +1,6 @@
+build/
+.cache/
+*.wav
+media/latest.mp4
+__pycache__/
+*.pyc
