@@ -1,0 +1,158 @@
+name: ZihinDakika
+
+on:
+  push:
+    paths:
+      - .github/workflows/zihindakika.yml
+
+  schedule:
+    - cron: "55 13 * * *"
+    - cron: "55 16 * * *"
+
+  workflow_dispatch:
+    inputs:
+      slot:
+        description: Video slot
+        required: false
+        default: extra
+        type: choice
+        options:
+          - extra
+          - 17:30
+          - 20:30
+
+  issues:
+    types:
+      - opened
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  generate:
+    if: >
+      github.event_name == 'push' ||
+      github.event_name == 'schedule' ||
+      github.event_name == 'workflow_dispatch' ||
+      (github.event_name == 'issues' && github.event.issue.title == 'ZD_COMMAND: CREATE_EXTRA')
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Resolve slot
+        id: slot
+        shell: bash
+        run: |
+          if [ "${{ github.event_name }}" = "issues" ] || [ "${{ github.event_name }}" = "push" ]; then
+            SLOT=extra
+          elif [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            SLOT="${{ inputs.slot }}"
+          else
+            SLOT=auto
+          fi
+          echo "slot=$SLOT" >> "$GITHUB_OUTPUT"
+
+      - name: Cache AI models
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.ollama/models
+            .cache/piper
+          key: zihindakika-models-v2
+
+      - name: Install tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg fonts-dejavu-core curl
+          python -m pip install --quiet pillow piper-tts==1.7.0
+
+          curl -fsSL https://ollama.com/install.sh | sh
+          nohup ollama serve >/tmp/ollama.log 2>&1 &
+          sleep 3
+          ollama pull qwen2.5:1.5b || true
+
+          mkdir -p .cache/piper
+          if [ ! -s .cache/piper/tr.onnx ]; then
+            curl -L --retry 3 -o .cache/piper/tr.onnx "https://huggingface.co/rhasspy/piper-voices/resolve/main/tr/tr_TR/fettah/medium/tr_TR-fettah-medium.onnx?download=true"
+          fi
+          if [ ! -s .cache/piper/tr.onnx.json ]; then
+            curl -L --retry 3 -o .cache/piper/tr.onnx.json "https://huggingface.co/rhasspy/piper-voices/resolve/main/tr/tr_TR/fettah/medium/tr_TR-fettah-medium.onnx.json?download=true"
+          fi
+
+      - name: Generate content
+        env:
+          ZD_SLOT: ${{ steps.slot.outputs.slot }}
+        run: python scripts/content.py
+
+      - name: Generate Turkish voice
+        run: |
+          cat build/narration.txt | piper             --model .cache/piper/tr.onnx             --config .cache/piper/tr.onnx.json             --output_file build/voice.wav
+
+      - name: Render vertical video
+        run: python scripts/render.py
+
+      - name: Save latest video
+        run: |
+          git config user.name ZihinDakika-Bot
+          git config user.email actions@users.noreply.github.com
+          git add data/latest.json media/latest.mp4
+          git diff --cached --quiet || git commit -m ZihinDakika-Prepare-Video
+          git push
+
+      - name: Close extra-content command
+        if: github.event_name == 'issues'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              state: 'closed'
+            })
+
+  decision:
+    if: >
+      github.event_name == 'issues' &&
+      (github.event.issue.title == 'ZD_COMMAND: APPROVE' ||
+       github.event.issue.title == 'ZD_COMMAND: REJECT')
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Save decision
+        env:
+          ZD_COMMAND: ${{ contains(github.event.issue.title, 'APPROVE') && 'APPROVE' || 'REJECT' }}
+        run: python scripts/decision.py
+
+      - name: Publish approved video through Buffer
+        if: contains(github.event.issue.title, 'APPROVE')
+        env:
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+        run: python scripts/buffer_publish.py
+
+      - name: Commit decision state
+        run: |
+          git config user.name ZihinDakika-Bot
+          git config user.email actions@users.noreply.github.com
+          git add data/latest.json
+          git diff --cached --quiet || git commit -m ZihinDakika-Mobile-Decision
+          git push
+
+      - name: Close decision command
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              state: 'closed'
+            })
