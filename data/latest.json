@@ -9,11 +9,11 @@
   "generated_at": "2026-08-30T21:12:05.468607+00:00",
   "source": "fallback",
   "model": "qwen2.5:3b",
-  "status": "Video hazır • önizle ve karar ver",
+  "status": "Onaylandı • Buffer API anahtarı bekleniyor",
   "video": "https://raw.githubusercontent.com/zihindakika/zihindakika-app/media/latest.mp4",
-  "decision": "pending",
+  "decision": "approved",
   "duration_seconds": 42.02,
   "voice_engine": "Piper Fettah • kalite yedeği",
   "render_version": "V3.0",
-  "updated_at": "2026-08-30T21:13:37.899455+00:00"
+  "updated_at": "2026-08-30T21:15:24.082289+00:00"
 }
