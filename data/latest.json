@@ -1,12 +1,12 @@
 {
-  "id": "3a88ba28d768",
-  "title": "Negatif Bir Yorum Neden Daha Ağır Gelir?",
-  "hook": "On iyi yorumun yanında tek bir olumsuz yorum varsa zihnin bazen ona daha fazla takılabilir.",
-  "narration": "On iyi yorumun yanında tek bir olumsuz yorum varsa zihnin bazen ona daha fazla takılabilir. İnsanlar olumsuz bilgiyi tehdit açısından daha önemli değerlendirmeye eğilim gösterebilir. Bu, her eleştiriyi görmezden gelmen gerektiği anlamına gelmez. Daha iyi yöntem, yorumu kanıt gibi incelemektir: somut mu, tekrarlanıyor mu, değiştirebileceğin bir davranış söylüyor mu? Cevap evetse kullan; yalnızca kaba veya belirsizse ağırlığını azalt. Bir yorumun güçlü hissettirmesi, onun mutlaka en doğru veri olduğu anlamına gelmez. Bunu denemek için bugün yalnızca tek bir küçük değişiklik seç ve günün sonunda işe yarayıp yaramadığını gözlemle. Sonucu değil, başlangıcı kolaylaştırmaya odaklan.",
-  "caption": "Negatif Bir Yorum Neden Daha Ağır Gelir? — Bugün deneyebileceğin küçük bir zihinsel araç. #zihindakika #psikoloji #kişiselgelişim",
-  "category": "Psikoloji",
+  "id": "66ec2dafe13a",
+  "title": "Tek Görev Neden Daha Hızlı Hissettirir?",
+  "hook": "Aynı anda birkaç işi yürütmek hızlı görünür, ama zihnin çoğu zaman görevler arasında geçiş yapar.",
+  "narration": "Aynı anda birkaç işi yürütmek hızlı görünür, ama zihnin çoğu zaman görevler arasında geçiş yapar. Her geçişte önceki işten kalan küçük bir dikkat izi yeni göreve taşınabilir. Bu yüzden yirmi dakikalık tek görev bloğu bazen bir saatlik dağınık çalışmadan daha temiz hissettirir. Denemek için tek bir hedef seç, gereksiz sekmeleri kapat ve bitiş noktasını önceden belirle. Süre dolunca kısa bir mola ver. Amaç bütün günü kusursuz odakla geçirmek değil; önemli işleri yaparken geçiş sayısını azaltmaktır. Bunu denemek için bugün yalnızca tek bir küçük değişiklik seç ve günün sonunda işe yarayıp yaramadığını gözlemle. Sonucu değil, başlangıcı kolaylaştırmaya odaklan.",
+  "caption": "Tek Görev Neden Daha Hızlı Hissettirir? — Bugün deneyebileceğin küçük bir zihinsel araç. #zihindakika #üretkenlik #kişiselgelişim",
+  "category": "Üretkenlik",
   "slot": "extra",
-  "generated_at": "2026-08-30T19:32:43.176533+00:00",
+  "generated_at": "2026-08-30T20:53:46.451044+00:00",
   "source": "fallback",
   "model": "qwen2.5:3b",
   "status": "Video hazır • önizle ve karar ver",
@@ -15,5 +15,5 @@
   "duration_seconds": 42.01,
   "voice_engine": "Piper Fettah • kalite yedeği",
   "render_version": "V3.0",
-  "updated_at": "2026-08-30T19:34:33.073644+00:00"
+  "updated_at": "2026-08-30T20:55:16.394592+00:00"
 }
