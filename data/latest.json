@@ -1,12 +1,12 @@
 {
-  "id": "66ec2dafe13a",
-  "title": "Tek Görev Neden Daha Hızlı Hissettirir?",
-  "hook": "Aynı anda birkaç işi yürütmek hızlı görünür, ama zihnin çoğu zaman görevler arasında geçiş yapar.",
-  "narration": "Aynı anda birkaç işi yürütmek hızlı görünür, ama zihnin çoğu zaman görevler arasında geçiş yapar. Her geçişte önceki işten kalan küçük bir dikkat izi yeni göreve taşınabilir. Bu yüzden yirmi dakikalık tek görev bloğu bazen bir saatlik dağınık çalışmadan daha temiz hissettirir. Denemek için tek bir hedef seç, gereksiz sekmeleri kapat ve bitiş noktasını önceden belirle. Süre dolunca kısa bir mola ver. Amaç bütün günü kusursuz odakla geçirmek değil; önemli işleri yaparken geçiş sayısını azaltmaktır. Bunu denemek için bugün yalnızca tek bir küçük değişiklik seç ve günün sonunda işe yarayıp yaramadığını gözlemle. Sonucu değil, başlangıcı kolaylaştırmaya odaklan.",
-  "caption": "Tek Görev Neden Daha Hızlı Hissettirir? — Bugün deneyebileceğin küçük bir zihinsel araç. #zihindakika #üretkenlik #kişiselgelişim",
-  "category": "Üretkenlik",
+  "id": "099476dbff8e",
+  "title": "Başlamayı Kolaylaştıran 20 Saniye Kuralı",
+  "hook": "Bir işi sürekli erteliyorsan sorun her zaman motivasyon olmayabilir; bazen başlangıç çok fazla sürtünme yaratır.",
+  "narration": "Bir işi sürekli erteliyorsan sorun her zaman motivasyon olmayabilir; bazen başlangıç çok fazla sürtünme yaratır. Yapmak istediğin davranışın ilk adımını yaklaşık yirmi saniye kolaylaştırmayı dene. Akşamdan çalışma dosyanı açık bırakmak, spor kıyafetini görünür yere koymak veya okuyacağın kitabı masaya hazırlamak buna örnek. Tersi de işe yarar: azaltmak istediğin davranışı birkaç adım zorlaştır. Telefonu başka odaya bırakmak gibi. Küçük çevre düzenlemeleri iradeyi sihirli biçimde artırmaz; yalnızca doğru davranışa başlamayı daha zahmetsiz hale getirir. Bunu denemek için bugün yalnızca tek bir küçük değişiklik seç ve günün sonunda işe yarayıp yaramadığını gözlemle. Sonucu değil, başlangıcı kolaylaştırmaya odaklan.",
+  "caption": "Başlamayı Kolaylaştıran 20 Saniye Kuralı — Bugün deneyebileceğin küçük bir zihinsel araç. #zihindakika #davranışbilimi #kişiselgelişim",
+  "category": "Davranış Bilimi",
   "slot": "extra",
-  "generated_at": "2026-08-30T20:53:46.451044+00:00",
+  "generated_at": "2026-08-30T21:04:26.235607+00:00",
   "source": "fallback",
   "model": "qwen2.5:3b",
   "status": "Video hazır • önizle ve karar ver",
@@ -15,5 +15,5 @@
   "duration_seconds": 42.01,
   "voice_engine": "Piper Fettah • kalite yedeği",
   "render_version": "V3.0",
-  "updated_at": "2026-08-30T20:55:16.394592+00:00"
+  "updated_at": "2026-08-30T21:05:51.176202+00:00"
 }
