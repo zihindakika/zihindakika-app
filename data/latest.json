@@ -1,12 +1,12 @@
 {
-  "id": "b791de93ee14",
-  "title": "Merak Boşluğu Neden Aklında Kalır?",
-  "hook": "Bir bilgi eksik bırakıldığında zihnin onu tamamlamak istemesi tesadüf değildir.",
-  "narration": "Bir bilgi eksik bırakıldığında zihnin onu tamamlamak istemesi tesadüf değildir. Bildiğin şeyle bilmek istediğin şey arasında küçük bir boşluk oluştuğunda merak artabilir. Bu yüzden iyi bir anlatım doğrudan cevabı vermek yerine önce doğru soruyu kurar. Ders çalışırken de aynı fikri kullanabilirsin: başlığı okumak yerine kendine önce burada neyi açıklamaya çalışıyor diye sor. Sonra cevabı metinde ara. Bu yöntem her şeyi otomatik olarak öğretmez, ama pasif okumayı aktif aramaya dönüştürür ve dikkatin için net bir hedef oluşturur. Bunu denemek için bugün yalnızca tek bir küçük değişiklik seç ve günün sonunda işe yarayıp yaramadığını gözlemle. Sonucu değil, başlangıcı kolaylaştırmaya odaklan.",
-  "caption": "Merak Boşluğu Neden Aklında Kalır? — Bugün deneyebileceğin küçük bir zihinsel araç. #zihindakika #bilgi #kişiselgelişim",
-  "category": "İlginç Bilgiler",
-  "slot": "extra",
-  "generated_at": "2026-08-31T16:41:19.813094+00:00",
+  "id": "e5ea33355e4c",
+  "title": "Negatif Bir Yorum Neden Daha Ağır Gelir?",
+  "hook": "On iyi yorumun yanında tek bir olumsuz yorum varsa zihnin bazen ona daha fazla takılabilir.",
+  "narration": "On iyi yorumun yanında tek bir olumsuz yorum varsa zihnin bazen ona daha fazla takılabilir. İnsanlar olumsuz bilgiyi tehdit açısından daha önemli değerlendirmeye eğilim gösterebilir. Bu, her eleştiriyi görmezden gelmen gerektiği anlamına gelmez. Daha iyi yöntem, yorumu kanıt gibi incelemektir: somut mu, tekrarlanıyor mu, değiştirebileceğin bir davranış söylüyor mu? Cevap evetse kullan; yalnızca kaba veya belirsizse ağırlığını azalt. Bir yorumun güçlü hissettirmesi, onun mutlaka en doğru veri olduğu anlamına gelmez. Bunu denemek için bugün yalnızca tek bir küçük değişiklik seç ve günün sonunda işe yarayıp yaramadığını gözlemle. Sonucu değil, başlangıcı kolaylaştırmaya odaklan.",
+  "caption": "Negatif Bir Yorum Neden Daha Ağır Gelir? — Bugün deneyebileceğin küçük bir zihinsel araç. #zihindakika #psikoloji #kişiselgelişim",
+  "category": "Psikoloji",
+  "slot": "20:30",
+  "generated_at": "2026-08-31T16:58:38.289921+00:00",
   "source": "fallback",
   "model": "qwen2.5:3b",
   "status": "Video hazır • önizle ve karar ver",
@@ -15,5 +15,5 @@
   "duration_seconds": 42.01,
   "voice_engine": "Piper Fettah • kalite yedeği",
   "render_version": "V3.0",
-  "updated_at": "2026-08-31T16:42:49.154926+00:00"
+  "updated_at": "2026-08-31T17:00:03.122225+00:00"
 }
