@@ -1,12 +1,12 @@
 {
-  "id": "78f2055cff2b",
+  "id": "0a855d62baf2",
   "title": "Merak Boşluğu Neden Aklında Kalır?",
   "hook": "Bir bilgi eksik bırakıldığında zihnin onu tamamlamak istemesi tesadüf değildir.",
   "narration": "Bir bilgi eksik bırakıldığında zihnin onu tamamlamak istemesi tesadüf değildir. Bildiğin şeyle bilmek istediğin şey arasında küçük bir boşluk oluştuğunda merak artabilir. Bu yüzden iyi bir anlatım doğrudan cevabı vermek yerine önce doğru soruyu kurar. Ders çalışırken de aynı fikri kullanabilirsin: başlığı okumak yerine kendine önce burada neyi açıklamaya çalışıyor diye sor. Sonra cevabı metinde ara. Bu yöntem her şeyi otomatik olarak öğretmez, ama pasif okumayı aktif aramaya dönüştürür ve dikkatin için net bir hedef oluşturur. Bunu denemek için bugün yalnızca tek bir küçük değişiklik seç ve günün sonunda işe yarayıp yaramadığını gözlemle. Sonucu değil, başlangıcı kolaylaştırmaya odaklan.",
   "caption": "Merak Boşluğu Neden Aklında Kalır? — Bugün deneyebileceğin küçük bir zihinsel araç. #zihindakika #bilgi #kişiselgelişim",
   "category": "İlginç Bilgiler",
-  "slot": "extra",
-  "generated_at": "2026-08-31T09:46:18.743299+00:00",
+  "slot": "17:30",
+  "generated_at": "2026-08-31T13:59:58.096869+00:00",
   "source": "fallback",
   "model": "qwen2.5:3b",
   "status": "Video hazır • önizle ve karar ver",
@@ -15,5 +15,5 @@
   "duration_seconds": 42.01,
   "voice_engine": "Piper Fettah • kalite yedeği",
   "render_version": "V3.0",
-  "updated_at": "2026-08-31T09:47:53.341257+00:00"
+  "updated_at": "2026-08-31T14:01:29.127772+00:00"
 }
