@@ -1,19 +1,19 @@
 {
-  "id": "a46490e1d767",
+  "id": "fa08e72e6a87",
   "title": "Tek Görev Neden Daha Hızlı Hissettirir?",
   "hook": "Aynı anda birkaç işi yürütmek hızlı görünür, ama zihnin çoğu zaman görevler arasında geçiş yapar.",
   "narration": "Aynı anda birkaç işi yürütmek hızlı görünür, ama zihnin çoğu zaman görevler arasında geçiş yapar. Her geçişte önceki işten kalan küçük bir dikkat izi yeni göreve taşınabilir. Bu yüzden yirmi dakikalık tek görev bloğu bazen bir saatlik dağınık çalışmadan daha temiz hissettirir. Denemek için tek bir hedef seç, gereksiz sekmeleri kapat ve bitiş noktasını önceden belirle. Süre dolunca kısa bir mola ver. Amaç bütün günü kusursuz odakla geçirmek değil; önemli işleri yaparken geçiş sayısını azaltmaktır. Bunu denemek için bugün yalnızca tek bir küçük değişiklik seç ve günün sonunda işe yarayıp yaramadığını gözlemle. Sonucu değil, başlangıcı kolaylaştırmaya odaklan.",
   "caption": "Tek Görev Neden Daha Hızlı Hissettirir? — Bugün deneyebileceğin küçük bir zihinsel araç. #zihindakika #üretkenlik #kişiselgelişim",
   "category": "Üretkenlik",
-  "slot": "20:30",
-  "generated_at": "2026-09-01T17:01:50.195736+00:00",
+  "slot": "17:30",
+  "generated_at": "2026-09-02T14:01:02.596330+00:00",
   "source": "fallback",
   "model": "qwen2.5:3b",
-  "status": "Onaylandı • Buffer API anahtarı bekleniyor",
+  "status": "Video hazır • önizle ve karar ver",
   "video": "https://raw.githubusercontent.com/zihindakika/zihindakika-app/media/latest.mp4",
-  "decision": "approved",
+  "decision": "pending",
   "duration_seconds": 42.01,
   "voice_engine": "Piper Fettah • kalite yedeği",
   "render_version": "V3.0",
-  "updated_at": "2026-09-01T21:59:23.736721+00:00"
+  "updated_at": "2026-09-02T14:02:36.764334+00:00"
 }
