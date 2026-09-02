@@ -1,12 +1,12 @@
 {
-  "id": "fa08e72e6a87",
-  "title": "Tek Görev Neden Daha Hızlı Hissettirir?",
-  "hook": "Aynı anda birkaç işi yürütmek hızlı görünür, ama zihnin çoğu zaman görevler arasında geçiş yapar.",
-  "narration": "Aynı anda birkaç işi yürütmek hızlı görünür, ama zihnin çoğu zaman görevler arasında geçiş yapar. Her geçişte önceki işten kalan küçük bir dikkat izi yeni göreve taşınabilir. Bu yüzden yirmi dakikalık tek görev bloğu bazen bir saatlik dağınık çalışmadan daha temiz hissettirir. Denemek için tek bir hedef seç, gereksiz sekmeleri kapat ve bitiş noktasını önceden belirle. Süre dolunca kısa bir mola ver. Amaç bütün günü kusursuz odakla geçirmek değil; önemli işleri yaparken geçiş sayısını azaltmaktır. Bunu denemek için bugün yalnızca tek bir küçük değişiklik seç ve günün sonunda işe yarayıp yaramadığını gözlemle. Sonucu değil, başlangıcı kolaylaştırmaya odaklan.",
-  "caption": "Tek Görev Neden Daha Hızlı Hissettirir? — Bugün deneyebileceğin küçük bir zihinsel araç. #zihindakika #üretkenlik #kişiselgelişim",
-  "category": "Üretkenlik",
-  "slot": "17:30",
-  "generated_at": "2026-09-02T14:01:02.596330+00:00",
+  "id": "b90da6ba7e0c",
+  "title": "Karar Yorgunluğu Gününü Nasıl Tüketir?",
+  "hook": "Sabah ne giyeceğinden hangi işe önce başlayacağına kadar onlarca küçük karar verirsin.",
+  "narration": "Sabah ne giyeceğinden hangi işe önce başlayacağına kadar onlarca küçük karar verirsin. Tek tek önemsiz görünseler de gün ilerledikçe seçim yapmak zorlaşabilir. Bu yüzden bazı kararları önceden vermek işe yarar. Örneğin çalışma saatini, ilk görevi veya mola düzenini bir gece önce belirleyebilirsin. Böylece önemli konular için daha fazla zihinsel alan bırakırsın. Amaç hayatı tamamen otomatikleştirmek değil; gereksiz seçimleri azaltmaktır. Enerjini küçük kararlara değil, gerçekten düşünmen gereken konulara sakla. Bunu denemek için bugün yalnızca tek bir küçük değişiklik seç ve günün sonunda işe yarayıp yaramadığını gözlemle. Sonucu değil, başlangıcı kolaylaştırmaya odaklan.",
+  "caption": "Karar Yorgunluğu Gününü Nasıl Tüketir? — Bugün deneyebileceğin küçük bir zihinsel araç. #zihindakika #psikoloji #kişiselgelişim",
+  "category": "Psikoloji",
+  "slot": "20:30",
+  "generated_at": "2026-09-02T16:59:44.519374+00:00",
   "source": "fallback",
   "model": "qwen2.5:3b",
   "status": "Video hazır • önizle ve karar ver",
@@ -15,5 +15,5 @@
   "duration_seconds": 42.01,
   "voice_engine": "Piper Fettah • kalite yedeği",
   "render_version": "V3.0",
-  "updated_at": "2026-09-02T14:02:36.764334+00:00"
+  "updated_at": "2026-09-02T17:01:20.130707+00:00"
 }
