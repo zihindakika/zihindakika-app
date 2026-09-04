@@ -1,12 +1,12 @@
 {
-  "id": "893ccca8616f",
+  "id": "702bc51b9010",
   "title": "Motivasyon Beklemek Neden Hata?",
   "hook": "Başlamak için motivasyon beklemek iyi bir plan gibi görünür, ama motivasyon gün boyunca değişir.",
   "narration": "Başlamak için motivasyon beklemek iyi bir plan gibi görünür, ama motivasyon gün boyunca değişir. Daha güvenilir olan şey başlangıcı küçültmektir. Yapacağın işi beş dakikalık bir adıma indir. Masaya otur, dosyayı aç ve yalnızca ilk parçayı yap. Büyük bir göreve başlamak zor gelirken küçük bir giriş adımı daha az direnç yaratabilir. Çoğu zaman hareket ettikten sonra devam etmek kolaylaşır. Hedefin her gün çok istekli olmak değil; başlamak için gereken eşiği düşürmek olsun. Motivasyonu beklemek yerine başlamayı kolaylaştıran bir sistem kur. Bunu denemek için bugün yalnızca tek bir küçük değişiklik seç ve günün sonunda işe yarayıp yaramadığını gözlemle. Sonucu değil, başlangıcı kolaylaştırmaya odaklan.",
   "caption": "Motivasyon Beklemek Neden Hata? — Bugün deneyebileceğin küçük bir zihinsel araç. #zihindakika #üretkenlik #kişiselgelişim",
   "category": "Üretkenlik",
-  "slot": "17:30",
-  "generated_at": "2026-09-04T14:00:07.537387+00:00",
+  "slot": "20:30",
+  "generated_at": "2026-09-04T16:57:53.930251+00:00",
   "source": "fallback",
   "model": "qwen2.5:3b",
   "status": "Video hazır • önizle ve karar ver",
@@ -15,5 +15,5 @@
   "duration_seconds": 42.01,
   "voice_engine": "Piper Fettah • kalite yedeği",
   "render_version": "V3.0",
-  "updated_at": "2026-09-04T14:01:41.054368+00:00"
+  "updated_at": "2026-09-04T16:59:16.488147+00:00"
 }
