@@ -1,12 +1,12 @@
 {
-  "id": "7c20abca4223",
-  "title": "Merak Boşluğu Neden Aklında Kalır?",
-  "hook": "Bir bilgi eksik bırakıldığında zihnin onu tamamlamak istemesi tesadüf değildir.",
-  "narration": "Bir bilgi eksik bırakıldığında zihnin onu tamamlamak istemesi tesadüf değildir. Bildiğin şeyle bilmek istediğin şey arasında küçük bir boşluk oluştuğunda merak artabilir. Bu yüzden iyi bir anlatım doğrudan cevabı vermek yerine önce doğru soruyu kurar. Ders çalışırken de aynı fikri kullanabilirsin: başlığı okumak yerine kendine önce burada neyi açıklamaya çalışıyor diye sor. Sonra cevabı metinde ara. Bu yöntem her şeyi otomatik olarak öğretmez, ama pasif okumayı aktif aramaya dönüştürür ve dikkatin için net bir hedef oluşturur. Bunu denemek için bugün yalnızca tek bir küçük değişiklik seç ve günün sonunda işe yarayıp yaramadığını gözlemle. Sonucu değil, başlangıcı kolaylaştırmaya odaklan.",
-  "caption": "Merak Boşluğu Neden Aklında Kalır? — Bugün deneyebileceğin küçük bir zihinsel araç. #zihindakika #bilgi #kişiselgelişim",
-  "category": "İlginç Bilgiler",
-  "slot": "20:30",
-  "generated_at": "2026-09-08T17:02:07.221962+00:00",
+  "id": "2c256743a08b",
+  "title": "Başlamayı Kolaylaştıran 20 Saniye Kuralı",
+  "hook": "Bir işi sürekli erteliyorsan sorun her zaman motivasyon olmayabilir; bazen başlangıç çok fazla sürtünme yaratır.",
+  "narration": "Bir işi sürekli erteliyorsan sorun her zaman motivasyon olmayabilir; bazen başlangıç çok fazla sürtünme yaratır. Yapmak istediğin davranışın ilk adımını yaklaşık yirmi saniye kolaylaştırmayı dene. Akşamdan çalışma dosyanı açık bırakmak, spor kıyafetini görünür yere koymak veya okuyacağın kitabı masaya hazırlamak buna örnek. Tersi de işe yarar: azaltmak istediğin davranışı birkaç adım zorlaştır. Telefonu başka odaya bırakmak gibi. Küçük çevre düzenlemeleri iradeyi sihirli biçimde artırmaz; yalnızca doğru davranışa başlamayı daha zahmetsiz hale getirir. Bunu denemek için bugün yalnızca tek bir küçük değişiklik seç ve günün sonunda işe yarayıp yaramadığını gözlemle. Sonucu değil, başlangıcı kolaylaştırmaya odaklan.",
+  "caption": "Başlamayı Kolaylaştıran 20 Saniye Kuralı — Bugün deneyebileceğin küçük bir zihinsel araç. #zihindakika #davranışbilimi #kişiselgelişim",
+  "category": "Davranış Bilimi",
+  "slot": "17:30",
+  "generated_at": "2026-09-09T14:01:05.274157+00:00",
   "source": "fallback",
   "model": "qwen2.5:3b",
   "status": "Video hazır • önizle ve karar ver",
@@ -15,5 +15,5 @@
   "duration_seconds": 42.01,
   "voice_engine": "Piper Fettah • kalite yedeği",
   "render_version": "V3.0",
-  "updated_at": "2026-09-08T17:03:43.962811+00:00"
+  "updated_at": "2026-09-09T14:02:39.267393+00:00"
 }
