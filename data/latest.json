@@ -1,12 +1,12 @@
 {
-  "id": "94b86d858c9e",
-  "title": "Karar Yorgunluğu Gününü Nasıl Tüketir?",
-  "hook": "Sabah ne giyeceğinden hangi işe önce başlayacağına kadar onlarca küçük karar verirsin.",
-  "narration": "Sabah ne giyeceğinden hangi işe önce başlayacağına kadar onlarca küçük karar verirsin. Tek tek önemsiz görünseler de gün ilerledikçe seçim yapmak zorlaşabilir. Bu yüzden bazı kararları önceden vermek işe yarar. Örneğin çalışma saatini, ilk görevi veya mola düzenini bir gece önce belirleyebilirsin. Böylece önemli konular için daha fazla zihinsel alan bırakırsın. Amaç hayatı tamamen otomatikleştirmek değil; gereksiz seçimleri azaltmaktır. Enerjini küçük kararlara değil, gerçekten düşünmen gereken konulara sakla. Bunu denemek için bugün yalnızca tek bir küçük değişiklik seç ve günün sonunda işe yarayıp yaramadığını gözlemle. Sonucu değil, başlangıcı kolaylaştırmaya odaklan.",
-  "caption": "Karar Yorgunluğu Gününü Nasıl Tüketir? — Bugün deneyebileceğin küçük bir zihinsel araç. #zihindakika #psikoloji #kişiselgelişim",
-  "category": "Psikoloji",
-  "slot": "17:30",
-  "generated_at": "2026-10-07T19:38:04.689739+00:00",
+  "id": "c343774693cf",
+  "title": "Merak Boşluğu Neden Aklında Kalır?",
+  "hook": "Bir bilgi eksik bırakıldığında zihnin onu tamamlamak istemesi tesadüf değildir.",
+  "narration": "Bir bilgi eksik bırakıldığında zihnin onu tamamlamak istemesi tesadüf değildir. Bildiğin şeyle bilmek istediğin şey arasında küçük bir boşluk oluştuğunda merak artabilir. Bu yüzden iyi bir anlatım doğrudan cevabı vermek yerine önce doğru soruyu kurar. Ders çalışırken de aynı fikri kullanabilirsin: başlığı okumak yerine kendine önce burada neyi açıklamaya çalışıyor diye sor. Sonra cevabı metinde ara. Bu yöntem her şeyi otomatik olarak öğretmez, ama pasif okumayı aktif aramaya dönüştürür ve dikkatin için net bir hedef oluşturur. Bunu denemek için bugün yalnızca tek bir küçük değişiklik seç ve günün sonunda işe yarayıp yaramadığını gözlemle. Sonucu değil, başlangıcı kolaylaştırmaya odaklan.",
+  "caption": "Merak Boşluğu Neden Aklında Kalır? — Bugün deneyebileceğin küçük bir zihinsel araç. #zihindakika #bilgi #kişiselgelişim",
+  "category": "İlginç Bilgiler",
+  "slot": "20:30",
+  "generated_at": "2026-10-07T21:40:43.554949+00:00",
   "source": "fallback",
   "model": "qwen2.5:3b",
   "status": "Video hazır • önizle ve karar ver",
@@ -15,5 +15,5 @@
   "duration_seconds": 42.01,
   "voice_engine": "Piper Fettah • kalite yedeği",
   "render_version": "V3.0",
-  "updated_at": "2026-10-07T19:39:40.032979+00:00"
+  "updated_at": "2026-10-07T21:42:06.998644+00:00"
 }
