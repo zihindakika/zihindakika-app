@@ -1,12 +1,12 @@
 {
-  "id": "b4677d99c74c",
-  "title": "Merak Boşluğu Neden Aklında Kalır?",
-  "hook": "Bir bilgi eksik bırakıldığında zihnin onu tamamlamak istemesi tesadüf değildir.",
-  "narration": "Bir bilgi eksik bırakıldığında zihnin onu tamamlamak istemesi tesadüf değildir. Bildiğin şeyle bilmek istediğin şey arasında küçük bir boşluk oluştuğunda merak artabilir. Bu yüzden iyi bir anlatım doğrudan cevabı vermek yerine önce doğru soruyu kurar. Ders çalışırken de aynı fikri kullanabilirsin: başlığı okumak yerine kendine önce burada neyi açıklamaya çalışıyor diye sor. Sonra cevabı metinde ara. Bu yöntem her şeyi otomatik olarak öğretmez, ama pasif okumayı aktif aramaya dönüştürür ve dikkatin için net bir hedef oluşturur. Bunu denemek için bugün yalnızca tek bir küçük değişiklik seç ve günün sonunda işe yarayıp yaramadığını gözlemle. Sonucu değil, başlangıcı kolaylaştırmaya odaklan.",
-  "caption": "Merak Boşluğu Neden Aklında Kalır? — Bugün deneyebileceğin küçük bir zihinsel araç. #zihindakika #bilgi #kişiselgelişim",
-  "category": "İlginç Bilgiler",
-  "slot": "20:30",
-  "generated_at": "2026-10-10T20:22:11.873943+00:00",
+  "id": "9729446ef6e3",
+  "title": "Tek Görev Neden Daha Hızlı Hissettirir?",
+  "hook": "Aynı anda birkaç işi yürütmek hızlı görünür, ama zihnin çoğu zaman görevler arasında geçiş yapar.",
+  "narration": "Aynı anda birkaç işi yürütmek hızlı görünür, ama zihnin çoğu zaman görevler arasında geçiş yapar. Her geçişte önceki işten kalan küçük bir dikkat izi yeni göreve taşınabilir. Bu yüzden yirmi dakikalık tek görev bloğu bazen bir saatlik dağınık çalışmadan daha temiz hissettirir. Denemek için tek bir hedef seç, gereksiz sekmeleri kapat ve bitiş noktasını önceden belirle. Süre dolunca kısa bir mola ver. Amaç bütün günü kusursuz odakla geçirmek değil; önemli işleri yaparken geçiş sayısını azaltmaktır. Bunu denemek için bugün yalnızca tek bir küçük değişiklik seç ve günün sonunda işe yarayıp yaramadığını gözlemle. Sonucu değil, başlangıcı kolaylaştırmaya odaklan.",
+  "caption": "Tek Görev Neden Daha Hızlı Hissettirir? — Bugün deneyebileceğin küçük bir zihinsel araç. #zihindakika #üretkenlik #kişiselgelişim",
+  "category": "Üretkenlik",
+  "slot": "17:30",
+  "generated_at": "2026-10-11T18:31:51.627690+00:00",
   "source": "fallback",
   "model": "qwen2.5:3b",
   "status": "Video hazır • önizle ve karar ver",
@@ -15,5 +15,5 @@
   "duration_seconds": 42.01,
   "voice_engine": "Piper Fettah • kalite yedeği",
   "render_version": "V3.0",
-  "updated_at": "2026-10-10T20:23:26.706652+00:00"
+  "updated_at": "2026-10-11T18:33:25.755942+00:00"
 }
