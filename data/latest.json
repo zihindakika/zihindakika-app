@@ -1,12 +1,12 @@
 {
-  "id": "8ef3b0350701",
+  "id": "ae8282f0e7ac",
   "title": "Negatif Bir Yorum Neden Daha Ağır Gelir?",
   "hook": "On iyi yorumun yanında tek bir olumsuz yorum varsa zihnin bazen ona daha fazla takılabilir.",
   "narration": "On iyi yorumun yanında tek bir olumsuz yorum varsa zihnin bazen ona daha fazla takılabilir. İnsanlar olumsuz bilgiyi tehdit açısından daha önemli değerlendirmeye eğilim gösterebilir. Bu, her eleştiriyi görmezden gelmen gerektiği anlamına gelmez. Daha iyi yöntem, yorumu kanıt gibi incelemektir: somut mu, tekrarlanıyor mu, değiştirebileceğin bir davranış söylüyor mu? Cevap evetse kullan; yalnızca kaba veya belirsizse ağırlığını azalt. Bir yorumun güçlü hissettirmesi, onun mutlaka en doğru veri olduğu anlamına gelmez. Bunu denemek için bugün yalnızca tek bir küçük değişiklik seç ve günün sonunda işe yarayıp yaramadığını gözlemle. Sonucu değil, başlangıcı kolaylaştırmaya odaklan.",
   "caption": "Negatif Bir Yorum Neden Daha Ağır Gelir? — Bugün deneyebileceğin küçük bir zihinsel araç. #zihindakika #psikoloji #kişiselgelişim",
   "category": "Psikoloji",
-  "slot": "17:30",
-  "generated_at": "2026-10-20T18:10:31.130794+00:00",
+  "slot": "20:30",
+  "generated_at": "2026-10-20T20:11:35.386414+00:00",
   "source": "fallback",
   "model": "qwen2.5:3b",
   "status": "Video hazır • önizle ve karar ver",
@@ -15,5 +15,5 @@
   "duration_seconds": 42.01,
   "voice_engine": "Piper Fettah • kalite yedeği",
   "render_version": "V3.0",
-  "updated_at": "2026-10-20T18:12:08.870076+00:00"
+  "updated_at": "2026-10-20T20:13:14.689321+00:00"
 }
