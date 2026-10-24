@@ -1,12 +1,12 @@
 {
-  "id": "78a110fb7e78",
-  "title": "Başlamayı Kolaylaştıran 20 Saniye Kuralı",
-  "hook": "Bir işi sürekli erteliyorsan sorun her zaman motivasyon olmayabilir; bazen başlangıç çok fazla sürtünme yaratır.",
-  "narration": "Bir işi sürekli erteliyorsan sorun her zaman motivasyon olmayabilir; bazen başlangıç çok fazla sürtünme yaratır. Yapmak istediğin davranışın ilk adımını yaklaşık yirmi saniye kolaylaştırmayı dene. Akşamdan çalışma dosyanı açık bırakmak, spor kıyafetini görünür yere koymak veya okuyacağın kitabı masaya hazırlamak buna örnek. Tersi de işe yarar: azaltmak istediğin davranışı birkaç adım zorlaştır. Telefonu başka odaya bırakmak gibi. Küçük çevre düzenlemeleri iradeyi sihirli biçimde artırmaz; yalnızca doğru davranışa başlamayı daha zahmetsiz hale getirir. Bunu denemek için bugün yalnızca tek bir küçük değişiklik seç ve günün sonunda işe yarayıp yaramadığını gözlemle. Sonucu değil, başlangıcı kolaylaştırmaya odaklan.",
-  "caption": "Başlamayı Kolaylaştıran 20 Saniye Kuralı — Bugün deneyebileceğin küçük bir zihinsel araç. #zihindakika #davranışbilimi #kişiselgelişim",
-  "category": "Davranış Bilimi",
-  "slot": "17:30",
-  "generated_at": "2026-10-24T17:03:46.848804+00:00",
+  "id": "b9cc6ff0d4d4",
+  "title": "Motivasyon Beklemek Neden Hata?",
+  "hook": "Başlamak için motivasyon beklemek iyi bir plan gibi görünür, ama motivasyon gün boyunca değişir.",
+  "narration": "Başlamak için motivasyon beklemek iyi bir plan gibi görünür, ama motivasyon gün boyunca değişir. Daha güvenilir olan şey başlangıcı küçültmektir. Yapacağın işi beş dakikalık bir adıma indir. Masaya otur, dosyayı aç ve yalnızca ilk parçayı yap. Büyük bir göreve başlamak zor gelirken küçük bir giriş adımı daha az direnç yaratabilir. Çoğu zaman hareket ettikten sonra devam etmek kolaylaşır. Hedefin her gün çok istekli olmak değil; başlamak için gereken eşiği düşürmek olsun. Motivasyonu beklemek yerine başlamayı kolaylaştıran bir sistem kur. Bunu denemek için bugün yalnızca tek bir küçük değişiklik seç ve günün sonunda işe yarayıp yaramadığını gözlemle. Sonucu değil, başlangıcı kolaylaştırmaya odaklan.",
+  "caption": "Motivasyon Beklemek Neden Hata? — Bugün deneyebileceğin küçük bir zihinsel araç. #zihindakika #üretkenlik #kişiselgelişim",
+  "category": "Üretkenlik",
+  "slot": "20:30",
+  "generated_at": "2026-10-24T19:06:13.413995+00:00",
   "source": "fallback",
   "model": "qwen2.5:3b",
   "status": "Video hazır • önizle ve karar ver",
@@ -15,5 +15,5 @@
   "duration_seconds": 42.01,
   "voice_engine": "Piper Fettah • kalite yedeği",
   "render_version": "V3.0",
-  "updated_at": "2026-10-24T17:05:32.028546+00:00"
+  "updated_at": "2026-10-24T19:07:26.014321+00:00"
 }
