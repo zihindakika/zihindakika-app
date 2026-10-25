@@ -1,19 +1,19 @@
 {
-  "id": "b9cc6ff0d4d4",
+  "id": "2898b01012b0",
   "title": "Motivasyon Beklemek Neden Hata?",
   "hook": "Başlamak için motivasyon beklemek iyi bir plan gibi görünür, ama motivasyon gün boyunca değişir.",
   "narration": "Başlamak için motivasyon beklemek iyi bir plan gibi görünür, ama motivasyon gün boyunca değişir. Daha güvenilir olan şey başlangıcı küçültmektir. Yapacağın işi beş dakikalık bir adıma indir. Masaya otur, dosyayı aç ve yalnızca ilk parçayı yap. Büyük bir göreve başlamak zor gelirken küçük bir giriş adımı daha az direnç yaratabilir. Çoğu zaman hareket ettikten sonra devam etmek kolaylaşır. Hedefin her gün çok istekli olmak değil; başlamak için gereken eşiği düşürmek olsun. Motivasyonu beklemek yerine başlamayı kolaylaştıran bir sistem kur. Bunu denemek için bugün yalnızca tek bir küçük değişiklik seç ve günün sonunda işe yarayıp yaramadığını gözlemle. Sonucu değil, başlangıcı kolaylaştırmaya odaklan.",
   "caption": "Motivasyon Beklemek Neden Hata? — Bugün deneyebileceğin küçük bir zihinsel araç. #zihindakika #üretkenlik #kişiselgelişim",
   "category": "Üretkenlik",
-  "slot": "20:30",
-  "generated_at": "2026-10-24T19:06:13.413995+00:00",
+  "slot": "17:30",
+  "generated_at": "2026-10-25T17:18:04.831098+00:00",
   "source": "fallback",
   "model": "qwen2.5:3b",
   "status": "Video hazır • önizle ve karar ver",
   "video": "https://raw.githubusercontent.com/zihindakika/zihindakika-app/media/latest.mp4",
   "decision": "pending",
-  "duration_seconds": 42.01,
+  "duration_seconds": 42.02,
   "voice_engine": "Piper Fettah • kalite yedeği",
   "render_version": "V3.0",
-  "updated_at": "2026-10-24T19:07:26.014321+00:00"
+  "updated_at": "2026-10-25T17:19:52.196717+00:00"
 }
