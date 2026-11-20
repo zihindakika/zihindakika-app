@@ -1,12 +1,12 @@
 {
-  "id": "e184ca001f12",
+  "id": "fb5a0385a475",
   "title": "Başlamayı Kolaylaştıran 20 Saniye Kuralı",
   "hook": "Bir işi sürekli erteliyorsan sorun her zaman motivasyon olmayabilir; bazen başlangıç çok fazla sürtünme yaratır.",
   "narration": "Bir işi sürekli erteliyorsan sorun her zaman motivasyon olmayabilir; bazen başlangıç çok fazla sürtünme yaratır. Yapmak istediğin davranışın ilk adımını yaklaşık yirmi saniye kolaylaştırmayı dene. Akşamdan çalışma dosyanı açık bırakmak, spor kıyafetini görünür yere koymak veya okuyacağın kitabı masaya hazırlamak buna örnek. Tersi de işe yarar: azaltmak istediğin davranışı birkaç adım zorlaştır. Telefonu başka odaya bırakmak gibi. Küçük çevre düzenlemeleri iradeyi sihirli biçimde artırmaz; yalnızca doğru davranışa başlamayı daha zahmetsiz hale getirir. Bunu denemek için bugün yalnızca tek bir küçük değişiklik seç ve günün sonunda işe yarayıp yaramadığını gözlemle. Sonucu değil, başlangıcı kolaylaştırmaya odaklan.",
   "caption": "Başlamayı Kolaylaştıran 20 Saniye Kuralı — Bugün deneyebileceğin küçük bir zihinsel araç. #zihindakika #davranışbilimi #kişiselgelişim",
   "category": "Davranış Bilimi",
-  "slot": "20:30",
-  "generated_at": "2026-11-19T23:20:51.583912+00:00",
+  "slot": "17:30",
+  "generated_at": "2026-11-20T21:35:32.927080+00:00",
   "source": "fallback",
   "model": "qwen2.5:3b",
   "status": "Video hazır • önizle ve karar ver",
@@ -15,5 +15,5 @@
   "duration_seconds": 42.02,
   "voice_engine": "Piper Fettah • kalite yedeği",
   "render_version": "V3.0",
-  "updated_at": "2026-11-19T23:21:59.789382+00:00"
+  "updated_at": "2026-11-20T21:36:56.860786+00:00"
 }
